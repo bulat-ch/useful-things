@@ -140,6 +140,11 @@ ufw status
 ufw deny 54321/tcp  
 ```
 
+Перезагружаем демона SSH:
+```
+systemctl restart sshd
+```
+
 2.
 Устанавливаем fail2ban для защиты от брутфорса:
 ```
