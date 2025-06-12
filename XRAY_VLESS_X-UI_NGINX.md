@@ -11,10 +11,10 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 systemctl enable xray
 ```
 
-Ставим X-UI (я ставил форк, переведённый на английский) https://github.com/NidukaAkalanka/x-ui-english
+Ставим 3X-UI https://github.com/MHSanaei/3x-ui
 А именно командой:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
 ```
 В процессе попросит установить логин, пароль и порт. Можете самостоятельно указать или просто нажать Enter и они сгенерируются автоматически случайными. Запомните их.
 
